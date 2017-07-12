@@ -10,6 +10,7 @@
   <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
   <property name="hibernate.show_sql">true</property>
   <property name="current_session_context_class">thread</property>
+  <property name="hibernate.hbm2ddl.auto">update</property>
   <mapping class="com.scholanova.groupe2.libraryproject.entities.User"/>
   <mapping class="com.scholanova.groupe2.libraryproject.entities.Address"/>
   <mapping class="com.scholanova.groupe2.libraryproject.entities.BankAccount"/>
