@@ -8,20 +8,17 @@ import com.scholanova.groupe2.libraryproject.entities.User;
 import com.scholanova.groupe2.libraryproject.services.UserSrv;
 import com.scholanova.groupe2.libraryproject.services.utils.HibernateUtil;
 
-public class UserSrvImpl implements UserSrv {
-	private Session session = HibernateUtil.getSession();
-
+public class UserSrvImpl extends AbstractEntityServiceImpl<User> implements UserSrv {
 	public User get(Long id) {
-		return session.load(User.class, id);
+		return get(id, User.class);
 	}
 
 	public Collection<User> getByFields(String attributName, Object... values) {
-		// TODO Auto-generated method stub
 		return null;
 	}
 
 	public Collection<User> getAll() {
-		return session.createQuery("FROM User", User.class).getResultList();
+		return getAll(User.class);
 	}
 
 }

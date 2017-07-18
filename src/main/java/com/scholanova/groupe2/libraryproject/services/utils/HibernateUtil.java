@@ -17,11 +17,11 @@ public class HibernateUtil {
             // Create the SessionFactory from hibernate.cfg.xml
             Configuration configuration = new Configuration();
             configuration.configure("hibernate.cfg.xml");
-            System.out.println("Hibernate Configuration loaded");
 
-            ServiceRegistry serviceRegistry = new StandardServiceRegistryBuilder().applySettings(configuration.getProperties()).build();
-            System.out.println("Hibernate serviceRegistry created");
-
+            //System.out.println(configuration.getNamedEntityGraphs());
+            ServiceRegistry serviceRegistry = new StandardServiceRegistryBuilder()
+            		.applySettings(configuration.getProperties())
+            		.build();
             SessionFactory sessionFactory = configuration.buildSessionFactory(serviceRegistry);
 
             return sessionFactory;
@@ -32,9 +32,7 @@ public class HibernateUtil {
             throw new ExceptionInInitializerError(ex);
         }
     }
-
-
-
+    
     public static SessionFactory getSessionFactory() {
         if(sessionFactory == null) sessionFactory = buildSessionFactory();
         return sessionFactory;
