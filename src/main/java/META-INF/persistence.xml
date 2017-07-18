@@ -8,6 +8,7 @@ http://java.sun.com/xml/ns/persistence/persistence_1_0.xsd"
       <class>com.scholanova.groupe2.libraryproject.entities.User</class>
       <class>com.scholanova.groupe2.libraryproject.entities.Address</class>
       <class>com.scholanova.groupe2.libraryproject.entities.BankAccount</class>
+      <class>com.scholanova.groupe2.libraryproject.entities.Basket</class>
       <properties>
          <property name="hibernate.ejb.cfgfile" value="hibernate.cfg.xml"/>
       </properties>
