@@ -9,6 +9,8 @@ http://java.sun.com/xml/ns/persistence/persistence_1_0.xsd"
       <class>com.scholanova.groupe2.libraryproject.entities.Address</class>
       <class>com.scholanova.groupe2.libraryproject.entities.BankAccount</class>
       <class>com.scholanova.groupe2.libraryproject.entities.Basket</class>
+      <class>com.scholanova.groupe2.libraryproject.entities.Price</class>
+      <class>com.scholanova.groupe2.libraryproject.entities.Stock</class>
       <properties>
          <property name="hibernate.ejb.cfgfile" value="hibernate.cfg.xml"/>
       </properties>

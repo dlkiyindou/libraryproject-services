@@ -5,21 +5,18 @@ import java.util.Collection;
 import com.scholanova.groupe2.libraryproject.entities.Price;
 import com.scholanova.groupe2.libraryproject.services.PriceSrv;
 
-public class PriceSrvImpl implements PriceSrv {
-
+public class PriceSrvImpl extends AbstractEntityServiceImpl<Price> implements PriceSrv {
+	
 	public Price get(Long id) {
-		// TODO Auto-generated method stub
-		return null;
+		return get(id, Price.class);
 	}
 
 	public Collection<Price> getByFields(String attributName, Object... values) {
-		// TODO Auto-generated method stub
 		return null;
 	}
 
 	public Collection<Price> getAll() {
-		// TODO Auto-generated method stub
-		return null;
+		return getAll(Price.class);
 	}
 
 }
