@@ -2,7 +2,7 @@
 <!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
                                          "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
 <hibernate-configuration>
- <session-factory name="">
+ <session-factory>
   <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
   <property name="hibernate.connection.password">root</property>
   <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/LIBRARY</property>
@@ -11,8 +11,10 @@
   <property name="hibernate.show_sql">true</property>
   <property name="current_session_context_class">thread</property>
   <property name="hibernate.hbm2ddl.auto">update</property>
+  <property name="hibernate.connection.autocommit">true</property>
   <mapping class="com.scholanova.groupe2.libraryproject.entities.User"/>
   <mapping class="com.scholanova.groupe2.libraryproject.entities.Address"/>
   <mapping class="com.scholanova.groupe2.libraryproject.entities.BankAccount"/>
+  <mapping class="com.scholanova.groupe2.libraryproject.entities.Basket"/>
  </session-factory>
 </hibernate-configuration>
