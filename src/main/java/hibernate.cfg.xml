@@ -16,5 +16,7 @@
   <mapping class="com.scholanova.groupe2.libraryproject.entities.Address"/>
   <mapping class="com.scholanova.groupe2.libraryproject.entities.BankAccount"/>
   <mapping class="com.scholanova.groupe2.libraryproject.entities.Basket"/>
+  <mapping class="com.scholanova.groupe2.libraryproject.entities.Price"/>
+  <mapping class="com.scholanova.groupe2.libraryproject.entities.Stock"/>
  </session-factory>
 </hibernate-configuration>
