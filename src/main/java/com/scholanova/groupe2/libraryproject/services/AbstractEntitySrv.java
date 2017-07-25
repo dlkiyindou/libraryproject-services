@@ -5,6 +5,7 @@ import java.util.Collection;
 import com.scholanova.groupe2.libraryproject.entities.AbstractEntity;
 
 public interface AbstractEntitySrv <T extends AbstractEntity> {
+	
 	/**
 	 * 
 	 * @param id
@@ -14,11 +15,11 @@ public interface AbstractEntitySrv <T extends AbstractEntity> {
 	
 	/**
 	 * 
-	 * @param attributName
+	 * @param KeyName
 	 * @param values
 	 * @return
 	 */
-	public Collection<T> getByFields (String attributName, Object ... values);
+	public Collection<T> getByFields (String KeyName, Object ... values);
 	
 	/**
 	 * 
