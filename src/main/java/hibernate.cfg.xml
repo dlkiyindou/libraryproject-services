@@ -14,5 +14,6 @@
   <mapping class="com.scholanova.groupe2.libraryproject.entities.User"/>
   <mapping class="com.scholanova.groupe2.libraryproject.entities.Address"/>
   <mapping class="com.scholanova.groupe2.libraryproject.entities.BankAccount"/>
+  <mapping class="com.scholanova.groupe2.libraryproject.entities.Book"/>
  </session-factory>
 </hibernate-configuration>
