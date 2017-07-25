@@ -1,4 +1,4 @@
-package com.scholanova.groupe2.libraryproject.services.dao.impl;
+package com.scholanova.groupe2.libraryproject.services.impl;
 
 import java.util.Collection;
 
