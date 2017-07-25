@@ -12,12 +12,14 @@
   <property name="current_session_context_class">thread</property>
   <property name="hibernate.hbm2ddl.auto">update</property>
   <property name="hibernate.connection.autocommit">true</property>
-  <mapping class="com.scholanova.groupe2.libraryproject.entities.User"/>
   <mapping class="com.scholanova.groupe2.libraryproject.entities.Address"/>
   <mapping class="com.scholanova.groupe2.libraryproject.entities.BankAccount"/>
   <mapping class="com.scholanova.groupe2.libraryproject.entities.Basket"/>
+  <mapping class="com.scholanova.groupe2.libraryproject.entities.Book"/>
+  <mapping class="com.scholanova.groupe2.libraryproject.entities.Lending"/>
+  <mapping class="com.scholanova.groupe2.libraryproject.entities.Order"/>
   <mapping class="com.scholanova.groupe2.libraryproject.entities.Price"/>
   <mapping class="com.scholanova.groupe2.libraryproject.entities.Stock"/>
-  <mapping class="com.scholanova.groupe2.libraryproject.entities.Book"/>
+  <mapping class="com.scholanova.groupe2.libraryproject.entities.User"/>
  </session-factory>
 </hibernate-configuration>
