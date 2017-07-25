@@ -24,3 +24,4 @@ public class PersistenceUtil {
     	return getEntityManagerFactory().createEntityManager();
     }
 }
+
