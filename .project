@@ -26,9 +26,6 @@
 			</arguments>
 		</buildCommand>
 		<buildCommand>
-<<<<<<< HEAD
-			<name>org.hibernate.eclipse.console.hibernateBuilder</name>
-=======
 			<name>org.jboss.tools.jst.web.kb.kbbuilder</name>
 			<arguments>
 			</arguments>
@@ -40,7 +37,6 @@
 		</buildCommand>
 		<buildCommand>
 			<name>org.eclipse.wst.validation.validationbuilder</name>
->>>>>>> branch 'Cecilia' of https://github.com/dlkiyindou/libraryproject-services
 			<arguments>
 			</arguments>
 		</buildCommand>
@@ -51,11 +47,8 @@
 		<nature>org.eclipse.jdt.core.javanature</nature>
 		<nature>org.eclipse.m2e.core.maven2Nature</nature>
 		<nature>org.hibernate.eclipse.console.hibernateNature</nature>
-<<<<<<< HEAD
-=======
 		<nature>org.eclipse.wst.common.project.facet.core.nature</nature>
 		<nature>org.jboss.tools.jst.web.kb.kbnature</nature>
 		<nature>org.jboss.tools.cdi.core.cdinature</nature>
->>>>>>> branch 'Cecilia' of https://github.com/dlkiyindou/libraryproject-services
 	</natures>
 </projectDescription>
