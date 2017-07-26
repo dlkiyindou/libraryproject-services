@@ -27,3 +27,5 @@ public interface AbstractEntitySrv <T extends AbstractEntity> {
 	public Collection<T> getAll();
 }
 
+
+
