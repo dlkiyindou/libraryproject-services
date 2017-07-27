@@ -19,7 +19,7 @@ public class DDLSchemaGenerator {
 	            .buildMetadata();
 	 
 	    new SchemaExport() //
-	            .setOutputFile("db-schema.hibernate5.ddl") //
+	            .setOutputFile("db2-schema.hibernate5.ddl") //
 	            .create(EnumSet.of(TargetType.SCRIPT), metadata);
 	 
 	    metadata.buildSessionFactory().close();
